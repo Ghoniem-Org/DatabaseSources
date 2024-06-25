@@ -1,0 +1,8 @@
+jsv5D
+appm =.1
+press=50
+press1=press*760
+P=appm*1e-6*press1
+col(6)=2*col(2)+col(3)+col(4)+col(5)
+col(7)=col(6)*186/(22.*6.23e23)*60*60*24*365*10
+col(8)=51549*P*col(7)/sqrt(col(1))
